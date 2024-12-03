@@ -1,0 +1,103 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path" : "pages/register/register",
+			"style" : 
+			{
+				"navigationBarTitleText" : "注册"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/write/write",
+			"style": {
+				"navigationBarTitleText": "发布"
+			}
+		},
+		{
+			"path": "pages/unused/unused",
+			"style": {
+				"navigationBarTitleText": "闲置"
+			}
+		},
+		{
+			"path": "pages/buy/buy",
+			"style": {
+				"navigationBarTitleText": "求购"
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path" : "pages/unused_detail/unused_detail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "闲置详情"
+			}
+		},
+		{
+			"path" : "pages/buy_detail/buy_detail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "求购详情"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "校园二手交易平台",
+		"navigationBarBackgroundColor": "#FF7670",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#333333",
+		"selectedColor": "#FF7670",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/home.png",
+			"selectedIconPath": "static/home_s.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/buy/buy",
+			"iconPath": "static/buy.png",
+			"selectedIconPath": "static/buy_s.png",
+			"text": "求购"
+		}, {
+			"pagePath": "pages/write/write",
+			"iconPath": "static/write.png",
+			"selectedIconPath": "static/write_s.png",
+			"text": "发布"
+		}, {
+			"pagePath": "pages/unused/unused",
+			"iconPath": "static/unused.png",
+			"selectedIconPath": "static/unused_s.png",
+			"text": "闲置"
+		}, {
+			"pagePath": "pages/mine/mine",
+			"iconPath": "static/mine.png",
+			"selectedIconPath": "static/mine_s.png",
+			"text": "我的"
+		}]
+	},
+	"uniIdRouter": {}
+}

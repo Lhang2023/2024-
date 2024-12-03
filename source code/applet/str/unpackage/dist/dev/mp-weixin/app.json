@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/register/register",
+    "pages/login/login",
+    "pages/index/index",
+    "pages/write/write",
+    "pages/unused/unused",
+    "pages/buy/buy",
+    "pages/mine/mine",
+    "pages/unused_detail/unused_detail",
+    "pages/buy_detail/buy_detail"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "校园二手交易平台",
+    "navigationBarBackgroundColor": "#FF7670",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#FF7670",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/home_s.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/buy/buy",
+        "iconPath": "static/buy.png",
+        "selectedIconPath": "static/buy_s.png",
+        "text": "求购"
+      },
+      {
+        "pagePath": "pages/write/write",
+        "iconPath": "static/write.png",
+        "selectedIconPath": "static/write_s.png",
+        "text": "发布"
+      },
+      {
+        "pagePath": "pages/unused/unused",
+        "iconPath": "static/unused.png",
+        "selectedIconPath": "static/unused_s.png",
+        "text": "闲置"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "static/mine.png",
+        "selectedIconPath": "static/mine_s.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
